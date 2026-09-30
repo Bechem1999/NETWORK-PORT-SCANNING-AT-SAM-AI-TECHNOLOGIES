@@ -1,8 +1,6 @@
-# 🛡️ NETWORK SCAN USING ZENMAP
+# 🛡️ NETWORK SCAN USING ZENMAP/Nmap
 
 <div align="center">
-  
-### 🔎 Network Reconnaissance & Port Scanning Using Zenmap / Nmap
 
 [![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Network_Security-red)](#)
 [![Nmap](https://img.shields.io/badge/Nmap-Network_Scanning-4682B4)](https://nmap.org/)
@@ -10,7 +8,7 @@
 [![Kali Linux](https://img.shields.io/badge/Kali_Linux-Security_Platform-557C94)](https://www.kali.org/)
 [![Linux](https://img.shields.io/badge/Linux-Command_Line-FCC624)](#)
 [![Networking](https://img.shields.io/badge/Networking-Network_Reconnaissance-green)](#)
-[![Port Scanning](https://img.shields.io/badge/Port_Scanning-Network_Enumeration-blue)](#)
+[![Port Scanning](https://img.shields.io//badge/Port_Scanning-Network_Enumeration-blue)](#)
 [![Service Detection](https://img.shields.io/badge/Service_Detection-Network_Analysis-purple)](#)
 [![Ethical Hacking](https://img.shields.io/badge/Ethical_Hacking-Authorized_Testing-red)](#)
 [![VirtualBox](https://img.shields.io/badge/VirtualBox-Lab_Environment-blue)](https://www.virtualbox.org/)
@@ -27,10 +25,6 @@ This project demonstrates the practical use of **Zenmap**, the graphical interfa
 The objective was to understand how network scanning can be used to identify reachable hosts, discover open ports, determine available services and collect information that can help build an initial picture of a target network.
 
 The project was performed using **Kali Linux** within a controlled laboratory environment.
-
-> ⚠️ **Ethical Use:** All scanning activities should be performed only against systems, networks or hosts for which explicit authorization has been granted.
-
----
 
 ## 🧪 Lab Environment
 
@@ -160,28 +154,17 @@ To append additional results without overwriting the existing file:
 
 ```bash
 nmap <authorized-target> >> scan_results.txt
-```
-
----
 
 ## 📊 Findings
 
 The following table can be updated with the actual results obtained during the laboratory scan.
 
-| Port | State    | Service | Version / Information  |
-| ---: | -------- | ------- | ---------------------- |
-|   XX | Open     | Service | Insert observed result |
-|   XX | Open     | Service | Insert observed result |
-|   XX | Closed   | Service | Insert observed result |
-|   XX | Filtered | Service | Insert observed result |
+| Port  | State    | Service      | 
+| ---   | -------- | -------      |
+|   135 | Open     | epmap        | 
+|   139 | Open     | netbios-ssn  | 
+|   445 | Open     | microsoft-ds | 
 
-> **Important:** The values above are placeholders. Replace them with the results from your own authorized Zenmap/Nmap scan.
-
----
-
-## 📸 Evidence
-
----
 
 ## 🧠 Key Skills Demonstrated
 
